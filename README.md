@@ -6,7 +6,7 @@
 
 ### 1. 旧式窗体汇总 (Legacy Form Fields)
 - **`extractWord.bas`**: 将旧式窗体域内容汇总至 Excel `output` 表。支持文件名映射。
-- **`extractToWord.bas`**: 将旧式窗体内容按题目汇总至新 Word 文档。自动识别窗体前的文字作为题目。
+- **`extractToWord.bas`**: 将旧式窗体内容按题目汇总至新 Word 文档。自动识别窗体前的文字作为题目，并保留题目和答案在源文档中的字体、字号、颜色等格式。
 
 ### 2. 新式窗体/内容控件汇总 (Content Controls)
 - **`extractCCtoExcel.bas`**: 按 `Tag` 或 `Title` 将内容控件数据汇总至 Excel。
