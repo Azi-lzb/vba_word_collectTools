@@ -1,0 +1,1475 @@
+{
+  "measurement": "end-to-end subprocess wall time, includes startup, parse and save; one warmup followed by measured runs",
+  "warning": "Aspose Word output is text-only; Aspose trial adds evaluation notices and may limit output. Timings do not compare equivalent fidelity.",
+  "runs": 3,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 23 Model 8 Stepping 2, AuthenticAMD",
+  "rust_executable_sha256": "d13e3120a2f7075e01adcda74c978bdb7ffb3ba53ad0e22d1455f1fdf7de2768",
+  "aspose_executable_sha256": "f76f8e86971716dee1d6f253e988fd14937c7f05d5bc61285ae7be30f8446118",
+  "aspose_words_version": "26.10.0",
+  "aspose_cells_version": "26.10.0",
+  "aspose_words_license_env_present": false,
+  "aspose_cells_license_env_present": false,
+  "sample_hashes": {
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\000-旧式窗体示例_1.docx": "f0e9ed7006d7e2a954241fca66aead6e3a663dbb18af72d9d9abd44159d861c7",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\000-旧式窗体示例_2.docx": "120e4f87ddd260fca9eee5441f8e4048e897eb3aaf12fb8c44e794077adc2533",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\000-旧式窗体示例_3.docx": "a1a2ea81d13feb3f5b097d6e9a5464aebd257eb80454ffdbbba7f9561f802025",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\001-旧式窗体示例_1.docx": "f0e9ed7006d7e2a954241fca66aead6e3a663dbb18af72d9d9abd44159d861c7",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\001-旧式窗体示例_2.docx": "120e4f87ddd260fca9eee5441f8e4048e897eb3aaf12fb8c44e794077adc2533",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\001-旧式窗体示例_3.docx": "a1a2ea81d13feb3f5b097d6e9a5464aebd257eb80454ffdbbba7f9561f802025",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\002-旧式窗体示例_1.docx": "f0e9ed7006d7e2a954241fca66aead6e3a663dbb18af72d9d9abd44159d861c7",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\002-旧式窗体示例_2.docx": "120e4f87ddd260fca9eee5441f8e4048e897eb3aaf12fb8c44e794077adc2533",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\002-旧式窗体示例_3.docx": "a1a2ea81d13feb3f5b097d6e9a5464aebd257eb80454ffdbbba7f9561f802025",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\003-旧式窗体示例_1.docx": "f0e9ed7006d7e2a954241fca66aead6e3a663dbb18af72d9d9abd44159d861c7",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\003-旧式窗体示例_2.docx": "120e4f87ddd260fca9eee5441f8e4048e897eb3aaf12fb8c44e794077adc2533",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\003-旧式窗体示例_3.docx": "a1a2ea81d13feb3f5b097d6e9a5464aebd257eb80454ffdbbba7f9561f802025",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\004-旧式窗体示例_1.docx": "f0e9ed7006d7e2a954241fca66aead6e3a663dbb18af72d9d9abd44159d861c7",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\004-旧式窗体示例_2.docx": "120e4f87ddd260fca9eee5441f8e4048e897eb3aaf12fb8c44e794077adc2533",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\004-旧式窗体示例_3.docx": "a1a2ea81d13feb3f5b097d6e9a5464aebd257eb80454ffdbbba7f9561f802025",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\005-旧式窗体示例_1.docx": "f0e9ed7006d7e2a954241fca66aead6e3a663dbb18af72d9d9abd44159d861c7",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\005-旧式窗体示例_2.docx": "120e4f87ddd260fca9eee5441f8e4048e897eb3aaf12fb8c44e794077adc2533",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\005-旧式窗体示例_3.docx": "a1a2ea81d13feb3f5b097d6e9a5464aebd257eb80454ffdbbba7f9561f802025",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\006-旧式窗体示例_1.docx": "f0e9ed7006d7e2a954241fca66aead6e3a663dbb18af72d9d9abd44159d861c7",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\006-旧式窗体示例_2.docx": "120e4f87ddd260fca9eee5441f8e4048e897eb3aaf12fb8c44e794077adc2533",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\006-旧式窗体示例_3.docx": "a1a2ea81d13feb3f5b097d6e9a5464aebd257eb80454ffdbbba7f9561f802025",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\007-旧式窗体示例_1.docx": "f0e9ed7006d7e2a954241fca66aead6e3a663dbb18af72d9d9abd44159d861c7",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\007-旧式窗体示例_2.docx": "120e4f87ddd260fca9eee5441f8e4048e897eb3aaf12fb8c44e794077adc2533",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\007-旧式窗体示例_3.docx": "a1a2ea81d13feb3f5b097d6e9a5464aebd257eb80454ffdbbba7f9561f802025",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\008-旧式窗体示例_1.docx": "f0e9ed7006d7e2a954241fca66aead6e3a663dbb18af72d9d9abd44159d861c7",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\008-旧式窗体示例_2.docx": "120e4f87ddd260fca9eee5441f8e4048e897eb3aaf12fb8c44e794077adc2533",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\008-旧式窗体示例_3.docx": "a1a2ea81d13feb3f5b097d6e9a5464aebd257eb80454ffdbbba7f9561f802025",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\009-旧式窗体示例_1.docx": "f0e9ed7006d7e2a954241fca66aead6e3a663dbb18af72d9d9abd44159d861c7",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\009-旧式窗体示例_2.docx": "120e4f87ddd260fca9eee5441f8e4048e897eb3aaf12fb8c44e794077adc2533",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-legacy\\009-旧式窗体示例_3.docx": "a1a2ea81d13feb3f5b097d6e9a5464aebd257eb80454ffdbbba7f9561f802025",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\000-内容控件示例_1.docx": "0e6ba5afc3e75f43bc7a1693a2e13b552a1e211bbb0c7e65ffabc0c68f02dfef",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\000-内容控件示例_2.docx": "8cf2210f36655a34731b8dbb5f742f4f93c12f1447565ac57832b00898df281a",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\000-内容控件示例_3.docx": "9f56c47c69e2b3931b25e4fefc803f3b7d95bc9ebf80f8bff8cbf49b3b1a1e8c",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\001-内容控件示例_1.docx": "0e6ba5afc3e75f43bc7a1693a2e13b552a1e211bbb0c7e65ffabc0c68f02dfef",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\001-内容控件示例_2.docx": "8cf2210f36655a34731b8dbb5f742f4f93c12f1447565ac57832b00898df281a",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\001-内容控件示例_3.docx": "9f56c47c69e2b3931b25e4fefc803f3b7d95bc9ebf80f8bff8cbf49b3b1a1e8c",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\002-内容控件示例_1.docx": "0e6ba5afc3e75f43bc7a1693a2e13b552a1e211bbb0c7e65ffabc0c68f02dfef",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\002-内容控件示例_2.docx": "8cf2210f36655a34731b8dbb5f742f4f93c12f1447565ac57832b00898df281a",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\002-内容控件示例_3.docx": "9f56c47c69e2b3931b25e4fefc803f3b7d95bc9ebf80f8bff8cbf49b3b1a1e8c",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\003-内容控件示例_1.docx": "0e6ba5afc3e75f43bc7a1693a2e13b552a1e211bbb0c7e65ffabc0c68f02dfef",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\003-内容控件示例_2.docx": "8cf2210f36655a34731b8dbb5f742f4f93c12f1447565ac57832b00898df281a",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\003-内容控件示例_3.docx": "9f56c47c69e2b3931b25e4fefc803f3b7d95bc9ebf80f8bff8cbf49b3b1a1e8c",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\004-内容控件示例_1.docx": "0e6ba5afc3e75f43bc7a1693a2e13b552a1e211bbb0c7e65ffabc0c68f02dfef",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\004-内容控件示例_2.docx": "8cf2210f36655a34731b8dbb5f742f4f93c12f1447565ac57832b00898df281a",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\004-内容控件示例_3.docx": "9f56c47c69e2b3931b25e4fefc803f3b7d95bc9ebf80f8bff8cbf49b3b1a1e8c",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\005-内容控件示例_1.docx": "0e6ba5afc3e75f43bc7a1693a2e13b552a1e211bbb0c7e65ffabc0c68f02dfef",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\005-内容控件示例_2.docx": "8cf2210f36655a34731b8dbb5f742f4f93c12f1447565ac57832b00898df281a",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\005-内容控件示例_3.docx": "9f56c47c69e2b3931b25e4fefc803f3b7d95bc9ebf80f8bff8cbf49b3b1a1e8c",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\006-内容控件示例_1.docx": "0e6ba5afc3e75f43bc7a1693a2e13b552a1e211bbb0c7e65ffabc0c68f02dfef",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\006-内容控件示例_2.docx": "8cf2210f36655a34731b8dbb5f742f4f93c12f1447565ac57832b00898df281a",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\006-内容控件示例_3.docx": "9f56c47c69e2b3931b25e4fefc803f3b7d95bc9ebf80f8bff8cbf49b3b1a1e8c",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\007-内容控件示例_1.docx": "0e6ba5afc3e75f43bc7a1693a2e13b552a1e211bbb0c7e65ffabc0c68f02dfef",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\007-内容控件示例_2.docx": "8cf2210f36655a34731b8dbb5f742f4f93c12f1447565ac57832b00898df281a",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\007-内容控件示例_3.docx": "9f56c47c69e2b3931b25e4fefc803f3b7d95bc9ebf80f8bff8cbf49b3b1a1e8c",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\008-内容控件示例_1.docx": "0e6ba5afc3e75f43bc7a1693a2e13b552a1e211bbb0c7e65ffabc0c68f02dfef",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\008-内容控件示例_2.docx": "8cf2210f36655a34731b8dbb5f742f4f93c12f1447565ac57832b00898df281a",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\008-内容控件示例_3.docx": "9f56c47c69e2b3931b25e4fefc803f3b7d95bc9ebf80f8bff8cbf49b3b1a1e8c",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\009-内容控件示例_1.docx": "0e6ba5afc3e75f43bc7a1693a2e13b552a1e211bbb0c7e65ffabc0c68f02dfef",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\009-内容控件示例_2.docx": "8cf2210f36655a34731b8dbb5f742f4f93c12f1447565ac57832b00898df281a",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\copies-content-control\\009-内容控件示例_3.docx": "9f56c47c69e2b3931b25e4fefc803f3b7d95bc9ebf80f8bff8cbf49b3b1a1e8c"
+  },
+  "results": [
+    {
+      "kind": "legacy",
+      "to": "excel",
+      "input_count": 30,
+      "timings": {
+        "rust": {
+          "seconds": [
+            0.024622199998702854,
+            0.02611819999583531,
+            0.025180600001476705
+          ],
+          "median_seconds": 0.025180600001476705,
+          "mean_seconds": 0.025306999998671625
+        },
+        "aspose": {
+          "seconds": [
+            2.397354599990649,
+            2.3698923000047216,
+            2.178362999999081
+          ],
+          "median_seconds": 2.3698923000047216,
+          "mean_seconds": 2.3152032999981507
+        }
+      },
+      "main_sheet_values_equal": true,
+      "rust_over_aspose_median": 0.010625208580755562,
+      "output_exact_signature_equal": false,
+      "rust_signature": {
+        "sheets": [
+          "output"
+        ],
+        "data": {
+          "output": [
+            [
+              "源文件名 (映射后)",
+              "UserName",
+              "Feedback"
+            ],
+            [
+              "000-旧式窗体示例_1.docx",
+              "用户_1",
+              "示例意见 1"
+            ],
+            [
+              "000-旧式窗体示例_2.docx",
+              "用户_2",
+              "示例意见 2"
+            ],
+            [
+              "000-旧式窗体示例_3.docx",
+              "用户_3",
+              "示例意见 3"
+            ],
+            [
+              "001-旧式窗体示例_1.docx",
+              "用户_1",
+              "示例意见 1"
+            ],
+            [
+              "001-旧式窗体示例_2.docx",
+              "用户_2",
+              "示例意见 2"
+            ],
+            [
+              "001-旧式窗体示例_3.docx",
+              "用户_3",
+              "示例意见 3"
+            ],
+            [
+              "002-旧式窗体示例_1.docx",
+              "用户_1",
+              "示例意见 1"
+            ],
+            [
+              "002-旧式窗体示例_2.docx",
+              "用户_2",
+              "示例意见 2"
+            ],
+            [
+              "002-旧式窗体示例_3.docx",
+              "用户_3",
+              "示例意见 3"
+            ],
+            [
+              "003-旧式窗体示例_1.docx",
+              "用户_1",
+              "示例意见 1"
+            ],
+            [
+              "003-旧式窗体示例_2.docx",
+              "用户_2",
+              "示例意见 2"
+            ],
+            [
+              "003-旧式窗体示例_3.docx",
+              "用户_3",
+              "示例意见 3"
+            ],
+            [
+              "004-旧式窗体示例_1.docx",
+              "用户_1",
+              "示例意见 1"
+            ],
+            [
+              "004-旧式窗体示例_2.docx",
+              "用户_2",
+              "示例意见 2"
+            ],
+            [
+              "004-旧式窗体示例_3.docx",
+              "用户_3",
+              "示例意见 3"
+            ],
+            [
+              "005-旧式窗体示例_1.docx",
+              "用户_1",
+              "示例意见 1"
+            ],
+            [
+              "005-旧式窗体示例_2.docx",
+              "用户_2",
+              "示例意见 2"
+            ],
+            [
+              "005-旧式窗体示例_3.docx",
+              "用户_3",
+              "示例意见 3"
+            ],
+            [
+              "006-旧式窗体示例_1.docx",
+              "用户_1",
+              "示例意见 1"
+            ],
+            [
+              "006-旧式窗体示例_2.docx",
+              "用户_2",
+              "示例意见 2"
+            ],
+            [
+              "006-旧式窗体示例_3.docx",
+              "用户_3",
+              "示例意见 3"
+            ],
+            [
+              "007-旧式窗体示例_1.docx",
+              "用户_1",
+              "示例意见 1"
+            ],
+            [
+              "007-旧式窗体示例_2.docx",
+              "用户_2",
+              "示例意见 2"
+            ],
+            [
+              "007-旧式窗体示例_3.docx",
+              "用户_3",
+              "示例意见 3"
+            ],
+            [
+              "008-旧式窗体示例_1.docx",
+              "用户_1",
+              "示例意见 1"
+            ],
+            [
+              "008-旧式窗体示例_2.docx",
+              "用户_2",
+              "示例意见 2"
+            ],
+            [
+              "008-旧式窗体示例_3.docx",
+              "用户_3",
+              "示例意见 3"
+            ],
+            [
+              "009-旧式窗体示例_1.docx",
+              "用户_1",
+              "示例意见 1"
+            ],
+            [
+              "009-旧式窗体示例_2.docx",
+              "用户_2",
+              "示例意见 2"
+            ],
+            [
+              "009-旧式窗体示例_3.docx",
+              "用户_3",
+              "示例意见 3"
+            ]
+          ]
+        }
+      },
+      "aspose_signature": {
+        "sheets": [
+          "output",
+          "Evaluation Warning"
+        ],
+        "data": {
+          "output": [
+            [
+              "源文件名 (映射后)",
+              "UserName",
+              "Feedback"
+            ],
+            [
+              "000-旧式窗体示例_1.docx",
+              "用户_1",
+              "示例意见 1"
+            ],
+            [
+              "000-旧式窗体示例_2.docx",
+              "用户_2",
+              "示例意见 2"
+            ],
+            [
+              "000-旧式窗体示例_3.docx",
+              "用户_3",
+              "示例意见 3"
+            ],
+            [
+              "001-旧式窗体示例_1.docx",
+              "用户_1",
+              "示例意见 1"
+            ],
+            [
+              "001-旧式窗体示例_2.docx",
+              "用户_2",
+              "示例意见 2"
+            ],
+            [
+              "001-旧式窗体示例_3.docx",
+              "用户_3",
+              "示例意见 3"
+            ],
+            [
+              "002-旧式窗体示例_1.docx",
+              "用户_1",
+              "示例意见 1"
+            ],
+            [
+              "002-旧式窗体示例_2.docx",
+              "用户_2",
+              "示例意见 2"
+            ],
+            [
+              "002-旧式窗体示例_3.docx",
+              "用户_3",
+              "示例意见 3"
+            ],
+            [
+              "003-旧式窗体示例_1.docx",
+              "用户_1",
+              "示例意见 1"
+            ],
+            [
+              "003-旧式窗体示例_2.docx",
+              "用户_2",
+              "示例意见 2"
+            ],
+            [
+              "003-旧式窗体示例_3.docx",
+              "用户_3",
+              "示例意见 3"
+            ],
+            [
+              "004-旧式窗体示例_1.docx",
+              "用户_1",
+              "示例意见 1"
+            ],
+            [
+              "004-旧式窗体示例_2.docx",
+              "用户_2",
+              "示例意见 2"
+            ],
+            [
+              "004-旧式窗体示例_3.docx",
+              "用户_3",
+              "示例意见 3"
+            ],
+            [
+              "005-旧式窗体示例_1.docx",
+              "用户_1",
+              "示例意见 1"
+            ],
+            [
+              "005-旧式窗体示例_2.docx",
+              "用户_2",
+              "示例意见 2"
+            ],
+            [
+              "005-旧式窗体示例_3.docx",
+              "用户_3",
+              "示例意见 3"
+            ],
+            [
+              "006-旧式窗体示例_1.docx",
+              "用户_1",
+              "示例意见 1"
+            ],
+            [
+              "006-旧式窗体示例_2.docx",
+              "用户_2",
+              "示例意见 2"
+            ],
+            [
+              "006-旧式窗体示例_3.docx",
+              "用户_3",
+              "示例意见 3"
+            ],
+            [
+              "007-旧式窗体示例_1.docx",
+              "用户_1",
+              "示例意见 1"
+            ],
+            [
+              "007-旧式窗体示例_2.docx",
+              "用户_2",
+              "示例意见 2"
+            ],
+            [
+              "007-旧式窗体示例_3.docx",
+              "用户_3",
+              "示例意见 3"
+            ],
+            [
+              "008-旧式窗体示例_1.docx",
+              "用户_1",
+              "示例意见 1"
+            ],
+            [
+              "008-旧式窗体示例_2.docx",
+              "用户_2",
+              "示例意见 2"
+            ],
+            [
+              "008-旧式窗体示例_3.docx",
+              "用户_3",
+              "示例意见 3"
+            ],
+            [
+              "009-旧式窗体示例_1.docx",
+              "用户_1",
+              "示例意见 1"
+            ],
+            [
+              "009-旧式窗体示例_2.docx",
+              "用户_2",
+              "示例意见 2"
+            ],
+            [
+              "009-旧式窗体示例_3.docx",
+              "用户_3",
+              "示例意见 3"
+            ]
+          ],
+          "Evaluation Warning": [
+            [
+              null
+            ],
+            [
+              null
+            ],
+            [
+              null
+            ],
+            [
+              null
+            ],
+            [
+              "Evaluation Only. Created with Aspose.Cells for .NET. Copyright 2003 - 2026 Aspose Pty Ltd."
+            ]
+          ]
+        }
+      },
+      "outputs": {
+        "rust": "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\legacy-excel-rust-3.xlsx",
+        "aspose": "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\legacy-excel-aspose-3.xlsx"
+      }
+    },
+    {
+      "kind": "legacy",
+      "to": "word",
+      "input_count": 30,
+      "timings": {
+        "rust": {
+          "seconds": [
+            0.04707390000112355,
+            0.051746299999649636,
+            0.04986009999993257
+          ],
+          "median_seconds": 0.04986009999993257,
+          "mean_seconds": 0.04956010000023525
+        },
+        "aspose": {
+          "seconds": [
+            2.696653899998637,
+            2.7228968999988865,
+            2.343778000009479
+          ],
+          "median_seconds": 2.696653899998637,
+          "mean_seconds": 2.587776266669001
+        }
+      },
+      "main_sheet_values_equal": null,
+      "rust_over_aspose_median": 0.018489617818570555,
+      "output_exact_signature_equal": false,
+      "rust_signature": {
+        "text": [
+          "姓名： ",
+          "【000-旧式窗体示例_1.docx】: ",
+          "用户_1",
+          "; ",
+          "【000-旧式窗体示例_2.docx】: ",
+          "用户_2",
+          "; ",
+          "【000-旧式窗体示例_3.docx】: ",
+          "用户_3",
+          "; ",
+          "【001-旧式窗体示例_1.docx】: ",
+          "用户_1",
+          "; ",
+          "【001-旧式窗体示例_2.docx】: ",
+          "用户_2",
+          "; ",
+          "【001-旧式窗体示例_3.docx】: ",
+          "用户_3",
+          "; ",
+          "【002-旧式窗体示例_1.docx】: ",
+          "用户_1",
+          "; ",
+          "【002-旧式窗体示例_2.docx】: ",
+          "用户_2",
+          "; ",
+          "【002-旧式窗体示例_3.docx】: ",
+          "用户_3",
+          "; ",
+          "【003-旧式窗体示例_1.docx】: ",
+          "用户_1",
+          "; ",
+          "【003-旧式窗体示例_2.docx】: ",
+          "用户_2",
+          "; ",
+          "【003-旧式窗体示例_3.docx】: ",
+          "用户_3",
+          "; ",
+          "【004-旧式窗体示例_1.docx】: ",
+          "用户_1",
+          "; ",
+          "【004-旧式窗体示例_2.docx】: ",
+          "用户_2",
+          "; ",
+          "【004-旧式窗体示例_3.docx】: ",
+          "用户_3",
+          "; ",
+          "【005-旧式窗体示例_1.docx】: ",
+          "用户_1",
+          "; ",
+          "【005-旧式窗体示例_2.docx】: ",
+          "用户_2",
+          "; ",
+          "【005-旧式窗体示例_3.docx】: ",
+          "用户_3",
+          "; ",
+          "【006-旧式窗体示例_1.docx】: ",
+          "用户_1",
+          "; ",
+          "【006-旧式窗体示例_2.docx】: ",
+          "用户_2",
+          "; ",
+          "【006-旧式窗体示例_3.docx】: ",
+          "用户_3",
+          "; ",
+          "【007-旧式窗体示例_1.docx】: ",
+          "用户_1",
+          "; ",
+          "【007-旧式窗体示例_2.docx】: ",
+          "用户_2",
+          "; ",
+          "【007-旧式窗体示例_3.docx】: ",
+          "用户_3",
+          "; ",
+          "【008-旧式窗体示例_1.docx】: ",
+          "用户_1",
+          "; ",
+          "【008-旧式窗体示例_2.docx】: ",
+          "用户_2",
+          "; ",
+          "【008-旧式窗体示例_3.docx】: ",
+          "用户_3",
+          "; ",
+          "【009-旧式窗体示例_1.docx】: ",
+          "用户_1",
+          "; ",
+          "【009-旧式窗体示例_2.docx】: ",
+          "用户_2",
+          "; ",
+          "【009-旧式窗体示例_3.docx】: ",
+          "用户_3",
+          "; ",
+          "意见： ",
+          "【000-旧式窗体示例_1.docx】: ",
+          "示例意见 1",
+          "; ",
+          "【000-旧式窗体示例_2.docx】: ",
+          "示例意见 2",
+          "; ",
+          "【000-旧式窗体示例_3.docx】: ",
+          "示例意见 3",
+          "; ",
+          "【001-旧式窗体示例_1.docx】: ",
+          "示例意见 1",
+          "; ",
+          "【001-旧式窗体示例_2.docx】: ",
+          "示例意见 2",
+          "; ",
+          "【001-旧式窗体示例_3.docx】: ",
+          "示例意见 3",
+          "; ",
+          "【002-旧式窗体示例_1.docx】: ",
+          "示例意见 1",
+          "; ",
+          "【002-旧式窗体示例_2.docx】: ",
+          "示例意见 2",
+          "; ",
+          "【002-旧式窗体示例_3.docx】: ",
+          "示例意见 3",
+          "; ",
+          "【003-旧式窗体示例_1.docx】: ",
+          "示例意见 1",
+          "; ",
+          "【003-旧式窗体示例_2.docx】: ",
+          "示例意见 2",
+          "; ",
+          "【003-旧式窗体示例_3.docx】: ",
+          "示例意见 3",
+          "; ",
+          "【004-旧式窗体示例_1.docx】: ",
+          "示例意见 1",
+          "; ",
+          "【004-旧式窗体示例_2.docx】: ",
+          "示例意见 2",
+          "; ",
+          "【004-旧式窗体示例_3.docx】: ",
+          "示例意见 3",
+          "; ",
+          "【005-旧式窗体示例_1.docx】: ",
+          "示例意见 1",
+          "; ",
+          "【005-旧式窗体示例_2.docx】: ",
+          "示例意见 2",
+          "; ",
+          "【005-旧式窗体示例_3.docx】: ",
+          "示例意见 3",
+          "; ",
+          "【006-旧式窗体示例_1.docx】: ",
+          "示例意见 1",
+          "; ",
+          "【006-旧式窗体示例_2.docx】: ",
+          "示例意见 2",
+          "; ",
+          "【006-旧式窗体示例_3.docx】: ",
+          "示例意见 3",
+          "; ",
+          "【007-旧式窗体示例_1.docx】: ",
+          "示例意见 1",
+          "; ",
+          "【007-旧式窗体示例_2.docx】: ",
+          "示例意见 2",
+          "; ",
+          "【007-旧式窗体示例_3.docx】: ",
+          "示例意见 3",
+          "; ",
+          "【008-旧式窗体示例_1.docx】: ",
+          "示例意见 1",
+          "; ",
+          "【008-旧式窗体示例_2.docx】: ",
+          "示例意见 2",
+          "; ",
+          "【008-旧式窗体示例_3.docx】: ",
+          "示例意见 3",
+          "; ",
+          "【009-旧式窗体示例_1.docx】: ",
+          "示例意见 1",
+          "; ",
+          "【009-旧式窗体示例_2.docx】: ",
+          "示例意见 2",
+          "; ",
+          "【009-旧式窗体示例_3.docx】: ",
+          "示例意见 3",
+          "; "
+        ],
+        "tables": 0,
+        "images": 0
+      },
+      "aspose_signature": {
+        "text": [
+          "Created with an evaluation copy of Aspose.Words. To remove all limitations, you can use Free Temporary License ",
+          "https://products.aspose.com/words/temporary-license/",
+          "姓名",
+          "000-旧式窗体示例_1.docx",
+          "用户_1",
+          "意见",
+          "000-旧式窗体示例_1.docx",
+          "示例意见 1",
+          "000-旧式窗体示例_2.docx",
+          "用户_2",
+          "000-旧式窗体示例_2.docx",
+          "示例意见 2",
+          "000-旧式窗体示例_3.docx",
+          "用户_3",
+          "000-旧式窗体示例_3.docx",
+          "示例意见 3",
+          "001-旧式窗体示例_1.docx",
+          "用户_1",
+          "001-旧式窗体示例_1.docx",
+          "示例意见 1",
+          "001-旧式窗体示例_2.docx",
+          "用户_2",
+          "001-旧式窗体示例_2.docx",
+          "示例意见 2",
+          "001-旧式窗体示例_3.docx",
+          "用户_3",
+          "001-旧式窗体示例_3.docx",
+          "示例意见 3",
+          "002-旧式窗体示例_1.docx",
+          "用户_1",
+          "002-旧式窗体示例_1.docx",
+          "示例意见 1",
+          "002-旧式窗体示例_2.docx",
+          "用户_2",
+          "002-旧式窗体示例_2.docx",
+          "示例意见 2",
+          "002-旧式窗体示例_3.docx",
+          "用户_3",
+          "002-旧式窗体示例_3.docx",
+          "示例意见 3",
+          "003-旧式窗体示例_1.docx",
+          "用户_1",
+          "003-旧式窗体示例_1.docx",
+          "示例意见 1",
+          "003-旧式窗体示例_2.docx",
+          "用户_2",
+          "003-旧式窗体示例_2.docx",
+          "示例意见 2",
+          "003-旧式窗体示例_3.docx",
+          "用户_3",
+          "003-旧式窗体示例_3.docx",
+          "示例意见 3",
+          "004-旧式窗体示例_1.docx",
+          "用户_1",
+          "004-旧式窗体示例_1.docx",
+          "示例意见 1",
+          "004-旧式窗体示例_2.docx",
+          "用户_2",
+          "004-旧式窗体示例_2.docx",
+          "示例意见 2",
+          "004-旧式窗体示例_3.docx",
+          "用户_3",
+          "004-旧式窗体示例_3.docx",
+          "示例意见 3",
+          "005-旧式窗体示例_1.docx",
+          "用户_1",
+          "005-旧式窗体示例_1.docx",
+          "示例意见 1",
+          "005-旧式窗体示例_2.docx",
+          "用户_2",
+          "005-旧式窗体示例_2.docx",
+          "示例意见 2",
+          "005-旧式窗体示例_3.docx",
+          "用户_3",
+          "005-旧式窗体示例_3.docx",
+          "示例意见 3",
+          "006-旧式窗体示例_1.docx",
+          "用户_1",
+          "006-旧式窗体示例_1.docx",
+          "示例意见 1",
+          "006-旧式窗体示例_2.docx",
+          "用户_2",
+          "006-旧式窗体示例_2.docx",
+          "示例意见 2",
+          "006-旧式窗体示例_3.docx",
+          "用户_3",
+          "006-旧式窗体示例_3.docx",
+          "示例意见 3",
+          "007-旧式窗体示例_1.docx",
+          "用户_1",
+          "007-旧式窗体示例_1.docx",
+          "示例意见 1",
+          "007-旧式窗体示例_2.docx",
+          "用户_2",
+          "007-旧式窗体示例_2.docx",
+          "示例意见 2",
+          "007-旧式窗体示例_3.docx",
+          "用户_3",
+          "007-旧式窗体示例_3.docx",
+          "示例意见 3",
+          "008-旧式窗体示例_1.docx",
+          "用户_1",
+          "008-旧式窗体示例_1.docx",
+          "示例意见 1",
+          "008-旧式窗体示例_2.docx",
+          "用户_2",
+          "008-旧式窗体示例_2.docx",
+          "示例意见 2",
+          "008-旧式窗体示例_3.docx",
+          "用户_3",
+          "008-旧式窗体示例_3.docx",
+          "示例意见 3",
+          "009-旧式窗体示例_1.docx",
+          "用户_1",
+          "009-旧式窗体示例_1.docx",
+          "示例意见 1",
+          "009-旧式窗体示例_2.docx",
+          "用户_2",
+          "009-旧式窗体示例_2.docx",
+          "示例意见 2",
+          "009-旧式窗体示例_3.docx",
+          "用户_3",
+          "009-旧式窗体示例_3.docx",
+          "示例意见 3"
+        ],
+        "tables": 0,
+        "images": 1
+      },
+      "outputs": {
+        "rust": "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\legacy-word-rust-3.docx",
+        "aspose": "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\legacy-word-aspose-3.docx"
+      }
+    },
+    {
+      "kind": "content-control",
+      "to": "excel",
+      "input_count": 30,
+      "timings": {
+        "rust": {
+          "seconds": [
+            0.028186699986690655,
+            0.026942899989080615,
+            0.026542799998424016
+          ],
+          "median_seconds": 0.026942899989080615,
+          "mean_seconds": 0.027224133324731763
+        },
+        "aspose": {
+          "seconds": [
+            2.358437499991851,
+            2.2613275999901816,
+            2.232534000009764
+          ],
+          "median_seconds": 2.2613275999901816,
+          "mean_seconds": 2.2840996999972654
+        }
+      },
+      "main_sheet_values_equal": true,
+      "rust_over_aspose_median": 0.011914638104270075,
+      "output_exact_signature_equal": false,
+      "rust_signature": {
+        "sheets": [
+          "output_cc"
+        ],
+        "data": {
+          "output_cc": [
+            [
+              "源文件名",
+              "UserName",
+              "Department"
+            ],
+            [
+              "000-内容控件示例_1.docx",
+              "测试员工_1",
+              "技术部"
+            ],
+            [
+              "000-内容控件示例_2.docx",
+              "测试员工_2",
+              "技术部"
+            ],
+            [
+              "000-内容控件示例_3.docx",
+              "测试员工_3",
+              "技术部"
+            ],
+            [
+              "001-内容控件示例_1.docx",
+              "测试员工_1",
+              "技术部"
+            ],
+            [
+              "001-内容控件示例_2.docx",
+              "测试员工_2",
+              "技术部"
+            ],
+            [
+              "001-内容控件示例_3.docx",
+              "测试员工_3",
+              "技术部"
+            ],
+            [
+              "002-内容控件示例_1.docx",
+              "测试员工_1",
+              "技术部"
+            ],
+            [
+              "002-内容控件示例_2.docx",
+              "测试员工_2",
+              "技术部"
+            ],
+            [
+              "002-内容控件示例_3.docx",
+              "测试员工_3",
+              "技术部"
+            ],
+            [
+              "003-内容控件示例_1.docx",
+              "测试员工_1",
+              "技术部"
+            ],
+            [
+              "003-内容控件示例_2.docx",
+              "测试员工_2",
+              "技术部"
+            ],
+            [
+              "003-内容控件示例_3.docx",
+              "测试员工_3",
+              "技术部"
+            ],
+            [
+              "004-内容控件示例_1.docx",
+              "测试员工_1",
+              "技术部"
+            ],
+            [
+              "004-内容控件示例_2.docx",
+              "测试员工_2",
+              "技术部"
+            ],
+            [
+              "004-内容控件示例_3.docx",
+              "测试员工_3",
+              "技术部"
+            ],
+            [
+              "005-内容控件示例_1.docx",
+              "测试员工_1",
+              "技术部"
+            ],
+            [
+              "005-内容控件示例_2.docx",
+              "测试员工_2",
+              "技术部"
+            ],
+            [
+              "005-内容控件示例_3.docx",
+              "测试员工_3",
+              "技术部"
+            ],
+            [
+              "006-内容控件示例_1.docx",
+              "测试员工_1",
+              "技术部"
+            ],
+            [
+              "006-内容控件示例_2.docx",
+              "测试员工_2",
+              "技术部"
+            ],
+            [
+              "006-内容控件示例_3.docx",
+              "测试员工_3",
+              "技术部"
+            ],
+            [
+              "007-内容控件示例_1.docx",
+              "测试员工_1",
+              "技术部"
+            ],
+            [
+              "007-内容控件示例_2.docx",
+              "测试员工_2",
+              "技术部"
+            ],
+            [
+              "007-内容控件示例_3.docx",
+              "测试员工_3",
+              "技术部"
+            ],
+            [
+              "008-内容控件示例_1.docx",
+              "测试员工_1",
+              "技术部"
+            ],
+            [
+              "008-内容控件示例_2.docx",
+              "测试员工_2",
+              "技术部"
+            ],
+            [
+              "008-内容控件示例_3.docx",
+              "测试员工_3",
+              "技术部"
+            ],
+            [
+              "009-内容控件示例_1.docx",
+              "测试员工_1",
+              "技术部"
+            ],
+            [
+              "009-内容控件示例_2.docx",
+              "测试员工_2",
+              "技术部"
+            ],
+            [
+              "009-内容控件示例_3.docx",
+              "测试员工_3",
+              "技术部"
+            ]
+          ]
+        }
+      },
+      "aspose_signature": {
+        "sheets": [
+          "output_cc",
+          "Evaluation Warning"
+        ],
+        "data": {
+          "output_cc": [
+            [
+              "源文件名",
+              "UserName",
+              "Department"
+            ],
+            [
+              "000-内容控件示例_1.docx",
+              "测试员工_1",
+              "技术部"
+            ],
+            [
+              "000-内容控件示例_2.docx",
+              "测试员工_2",
+              "技术部"
+            ],
+            [
+              "000-内容控件示例_3.docx",
+              "测试员工_3",
+              "技术部"
+            ],
+            [
+              "001-内容控件示例_1.docx",
+              "测试员工_1",
+              "技术部"
+            ],
+            [
+              "001-内容控件示例_2.docx",
+              "测试员工_2",
+              "技术部"
+            ],
+            [
+              "001-内容控件示例_3.docx",
+              "测试员工_3",
+              "技术部"
+            ],
+            [
+              "002-内容控件示例_1.docx",
+              "测试员工_1",
+              "技术部"
+            ],
+            [
+              "002-内容控件示例_2.docx",
+              "测试员工_2",
+              "技术部"
+            ],
+            [
+              "002-内容控件示例_3.docx",
+              "测试员工_3",
+              "技术部"
+            ],
+            [
+              "003-内容控件示例_1.docx",
+              "测试员工_1",
+              "技术部"
+            ],
+            [
+              "003-内容控件示例_2.docx",
+              "测试员工_2",
+              "技术部"
+            ],
+            [
+              "003-内容控件示例_3.docx",
+              "测试员工_3",
+              "技术部"
+            ],
+            [
+              "004-内容控件示例_1.docx",
+              "测试员工_1",
+              "技术部"
+            ],
+            [
+              "004-内容控件示例_2.docx",
+              "测试员工_2",
+              "技术部"
+            ],
+            [
+              "004-内容控件示例_3.docx",
+              "测试员工_3",
+              "技术部"
+            ],
+            [
+              "005-内容控件示例_1.docx",
+              "测试员工_1",
+              "技术部"
+            ],
+            [
+              "005-内容控件示例_2.docx",
+              "测试员工_2",
+              "技术部"
+            ],
+            [
+              "005-内容控件示例_3.docx",
+              "测试员工_3",
+              "技术部"
+            ],
+            [
+              "006-内容控件示例_1.docx",
+              "测试员工_1",
+              "技术部"
+            ],
+            [
+              "006-内容控件示例_2.docx",
+              "测试员工_2",
+              "技术部"
+            ],
+            [
+              "006-内容控件示例_3.docx",
+              "测试员工_3",
+              "技术部"
+            ],
+            [
+              "007-内容控件示例_1.docx",
+              "测试员工_1",
+              "技术部"
+            ],
+            [
+              "007-内容控件示例_2.docx",
+              "测试员工_2",
+              "技术部"
+            ],
+            [
+              "007-内容控件示例_3.docx",
+              "测试员工_3",
+              "技术部"
+            ],
+            [
+              "008-内容控件示例_1.docx",
+              "测试员工_1",
+              "技术部"
+            ],
+            [
+              "008-内容控件示例_2.docx",
+              "测试员工_2",
+              "技术部"
+            ],
+            [
+              "008-内容控件示例_3.docx",
+              "测试员工_3",
+              "技术部"
+            ],
+            [
+              "009-内容控件示例_1.docx",
+              "测试员工_1",
+              "技术部"
+            ],
+            [
+              "009-内容控件示例_2.docx",
+              "测试员工_2",
+              "技术部"
+            ],
+            [
+              "009-内容控件示例_3.docx",
+              "测试员工_3",
+              "技术部"
+            ]
+          ],
+          "Evaluation Warning": [
+            [
+              null
+            ],
+            [
+              null
+            ],
+            [
+              null
+            ],
+            [
+              null
+            ],
+            [
+              "Evaluation Only. Created with Aspose.Cells for .NET. Copyright 2003 - 2026 Aspose Pty Ltd."
+            ]
+          ]
+        }
+      },
+      "outputs": {
+        "rust": "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\content-control-excel-rust-3.xlsx",
+        "aspose": "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\content-control-excel-aspose-3.xlsx"
+      }
+    },
+    {
+      "kind": "content-control",
+      "to": "word",
+      "input_count": 30,
+      "timings": {
+        "rust": {
+          "seconds": [
+            0.044479399992269464,
+            0.04640399999334477,
+            0.046311800004332326
+          ],
+          "median_seconds": 0.046311800004332326,
+          "mean_seconds": 0.045731733329982184
+        },
+        "aspose": {
+          "seconds": [
+            2.5853825000085635,
+            2.4273111000075005,
+            2.51221980000264
+          ],
+          "median_seconds": 2.51221980000264,
+          "mean_seconds": 2.5083044666729015
+        }
+      },
+      "main_sheet_values_equal": null,
+      "rust_over_aspose_median": 0.018434613087709783,
+      "output_exact_signature_equal": false,
+      "rust_signature": {
+        "text": [
+          "姓名：",
+          "000-内容控件示例_1.docx",
+          "测试员工_1",
+          "部门：",
+          "000-内容控件示例_1.docx",
+          "技术部",
+          "000-内容控件示例_2.docx",
+          "测试员工_2",
+          "000-内容控件示例_2.docx",
+          "技术部",
+          "000-内容控件示例_3.docx",
+          "测试员工_3",
+          "000-内容控件示例_3.docx",
+          "技术部",
+          "001-内容控件示例_1.docx",
+          "测试员工_1",
+          "001-内容控件示例_1.docx",
+          "技术部",
+          "001-内容控件示例_2.docx",
+          "测试员工_2",
+          "001-内容控件示例_2.docx",
+          "技术部",
+          "001-内容控件示例_3.docx",
+          "测试员工_3",
+          "001-内容控件示例_3.docx",
+          "技术部",
+          "002-内容控件示例_1.docx",
+          "测试员工_1",
+          "002-内容控件示例_1.docx",
+          "技术部",
+          "002-内容控件示例_2.docx",
+          "测试员工_2",
+          "002-内容控件示例_2.docx",
+          "技术部",
+          "002-内容控件示例_3.docx",
+          "测试员工_3",
+          "002-内容控件示例_3.docx",
+          "技术部",
+          "003-内容控件示例_1.docx",
+          "测试员工_1",
+          "003-内容控件示例_1.docx",
+          "技术部",
+          "003-内容控件示例_2.docx",
+          "测试员工_2",
+          "003-内容控件示例_2.docx",
+          "技术部",
+          "003-内容控件示例_3.docx",
+          "测试员工_3",
+          "003-内容控件示例_3.docx",
+          "技术部",
+          "004-内容控件示例_1.docx",
+          "测试员工_1",
+          "004-内容控件示例_1.docx",
+          "技术部",
+          "004-内容控件示例_2.docx",
+          "测试员工_2",
+          "004-内容控件示例_2.docx",
+          "技术部",
+          "004-内容控件示例_3.docx",
+          "测试员工_3",
+          "004-内容控件示例_3.docx",
+          "技术部",
+          "005-内容控件示例_1.docx",
+          "测试员工_1",
+          "005-内容控件示例_1.docx",
+          "技术部",
+          "005-内容控件示例_2.docx",
+          "测试员工_2",
+          "005-内容控件示例_2.docx",
+          "技术部",
+          "005-内容控件示例_3.docx",
+          "测试员工_3",
+          "005-内容控件示例_3.docx",
+          "技术部",
+          "006-内容控件示例_1.docx",
+          "测试员工_1",
+          "006-内容控件示例_1.docx",
+          "技术部",
+          "006-内容控件示例_2.docx",
+          "测试员工_2",
+          "006-内容控件示例_2.docx",
+          "技术部",
+          "006-内容控件示例_3.docx",
+          "测试员工_3",
+          "006-内容控件示例_3.docx",
+          "技术部",
+          "007-内容控件示例_1.docx",
+          "测试员工_1",
+          "007-内容控件示例_1.docx",
+          "技术部",
+          "007-内容控件示例_2.docx",
+          "测试员工_2",
+          "007-内容控件示例_2.docx",
+          "技术部",
+          "007-内容控件示例_3.docx",
+          "测试员工_3",
+          "007-内容控件示例_3.docx",
+          "技术部",
+          "008-内容控件示例_1.docx",
+          "测试员工_1",
+          "008-内容控件示例_1.docx",
+          "技术部",
+          "008-内容控件示例_2.docx",
+          "测试员工_2",
+          "008-内容控件示例_2.docx",
+          "技术部",
+          "008-内容控件示例_3.docx",
+          "测试员工_3",
+          "008-内容控件示例_3.docx",
+          "技术部",
+          "009-内容控件示例_1.docx",
+          "测试员工_1",
+          "009-内容控件示例_1.docx",
+          "技术部",
+          "009-内容控件示例_2.docx",
+          "测试员工_2",
+          "009-内容控件示例_2.docx",
+          "技术部",
+          "009-内容控件示例_3.docx",
+          "测试员工_3",
+          "009-内容控件示例_3.docx",
+          "技术部"
+        ],
+        "tables": 0,
+        "images": 0
+      },
+      "aspose_signature": {
+        "text": [
+          "Created with an evaluation copy of Aspose.Words. To remove all limitations, you can use Free Temporary License ",
+          "https://products.aspose.com/words/temporary-license/",
+          "UserName",
+          "000-内容控件示例_1.docx",
+          "测试员工_1",
+          "Department",
+          "000-内容控件示例_1.docx",
+          "技术部",
+          "000-内容控件示例_2.docx",
+          "测试员工_2",
+          "000-内容控件示例_2.docx",
+          "技术部",
+          "000-内容控件示例_3.docx",
+          "测试员工_3",
+          "000-内容控件示例_3.docx",
+          "技术部",
+          "001-内容控件示例_1.docx",
+          "测试员工_1",
+          "001-内容控件示例_1.docx",
+          "技术部",
+          "001-内容控件示例_2.docx",
+          "测试员工_2",
+          "001-内容控件示例_2.docx",
+          "技术部",
+          "001-内容控件示例_3.docx",
+          "测试员工_3",
+          "001-内容控件示例_3.docx",
+          "技术部",
+          "002-内容控件示例_1.docx",
+          "测试员工_1",
+          "002-内容控件示例_1.docx",
+          "技术部",
+          "002-内容控件示例_2.docx",
+          "测试员工_2",
+          "002-内容控件示例_2.docx",
+          "技术部",
+          "002-内容控件示例_3.docx",
+          "测试员工_3",
+          "002-内容控件示例_3.docx",
+          "技术部",
+          "003-内容控件示例_1.docx",
+          "测试员工_1",
+          "003-内容控件示例_1.docx",
+          "技术部",
+          "003-内容控件示例_2.docx",
+          "测试员工_2",
+          "003-内容控件示例_2.docx",
+          "技术部",
+          "003-内容控件示例_3.docx",
+          "测试员工_3",
+          "003-内容控件示例_3.docx",
+          "技术部",
+          "004-内容控件示例_1.docx",
+          "测试员工_1",
+          "004-内容控件示例_1.docx",
+          "技术部",
+          "004-内容控件示例_2.docx",
+          "测试员工_2",
+          "004-内容控件示例_2.docx",
+          "技术部",
+          "004-内容控件示例_3.docx",
+          "测试员工_3",
+          "004-内容控件示例_3.docx",
+          "技术部",
+          "005-内容控件示例_1.docx",
+          "测试员工_1",
+          "005-内容控件示例_1.docx",
+          "技术部",
+          "005-内容控件示例_2.docx",
+          "测试员工_2",
+          "005-内容控件示例_2.docx",
+          "技术部",
+          "005-内容控件示例_3.docx",
+          "测试员工_3",
+          "005-内容控件示例_3.docx",
+          "技术部",
+          "006-内容控件示例_1.docx",
+          "测试员工_1",
+          "006-内容控件示例_1.docx",
+          "技术部",
+          "006-内容控件示例_2.docx",
+          "测试员工_2",
+          "006-内容控件示例_2.docx",
+          "技术部",
+          "006-内容控件示例_3.docx",
+          "测试员工_3",
+          "006-内容控件示例_3.docx",
+          "技术部",
+          "007-内容控件示例_1.docx",
+          "测试员工_1",
+          "007-内容控件示例_1.docx",
+          "技术部",
+          "007-内容控件示例_2.docx",
+          "测试员工_2",
+          "007-内容控件示例_2.docx",
+          "技术部",
+          "007-内容控件示例_3.docx",
+          "测试员工_3",
+          "007-内容控件示例_3.docx",
+          "技术部",
+          "008-内容控件示例_1.docx",
+          "测试员工_1",
+          "008-内容控件示例_1.docx",
+          "技术部",
+          "008-内容控件示例_2.docx",
+          "测试员工_2",
+          "008-内容控件示例_2.docx",
+          "技术部",
+          "008-内容控件示例_3.docx",
+          "测试员工_3",
+          "008-内容控件示例_3.docx",
+          "技术部",
+          "009-内容控件示例_1.docx",
+          "测试员工_1",
+          "009-内容控件示例_1.docx",
+          "技术部",
+          "009-内容控件示例_2.docx",
+          "测试员工_2",
+          "009-内容控件示例_2.docx",
+          "技术部",
+          "009-内容控件示例_3.docx",
+          "测试员工_3",
+          "009-内容控件示例_3.docx",
+          "技术部"
+        ],
+        "tables": 0,
+        "images": 1
+      },
+      "outputs": {
+        "rust": "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\content-control-word-rust-3.docx",
+        "aspose": "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-o5nhemqj\\content-control-word-aspose-3.docx"
+      }
+    }
+  ],
+  "inputs_unchanged": true,
+  "originals_unchanged": true
+}

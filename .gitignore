@@ -1,3 +1,4 @@
 VBA_Export/backup/
 ~$*
 *.tmp
+/config.xlsx

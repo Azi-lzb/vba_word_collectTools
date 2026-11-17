@@ -1,0 +1,11 @@
+/target/
+/dist/
+/python/__pycache__/
+/scratch-*
+/verification/evidence/
+/verification/fixtures/
+**/__pycache__/
+/aspose-benchmark/bin/
+/aspose-benchmark/obj/
+/archive/aspose-benchmark/bin/
+/archive/aspose-benchmark/obj/

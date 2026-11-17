@@ -1,0 +1,411 @@
+{
+  "measurement": "end-to-end subprocess wall time, includes startup, parse and save; one warmup followed by measured runs",
+  "warning": "Aspose Word output is text-only; Aspose trial adds evaluation notices and may limit output. Timings do not compare equivalent fidelity.",
+  "runs": 5,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 23 Model 8 Stepping 2, AuthenticAMD",
+  "rust_executable_sha256": "d13e3120a2f7075e01adcda74c978bdb7ffb3ba53ad0e22d1455f1fdf7de2768",
+  "aspose_executable_sha256": "f76f8e86971716dee1d6f253e988fd14937c7f05d5bc61285ae7be30f8446118",
+  "aspose_words_version": "26.10.0",
+  "aspose_cells_version": "26.10.0",
+  "aspose_words_license_env_present": false,
+  "aspose_cells_license_env_present": false,
+  "sample_hashes": {
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-g5rlxcul\\samples\\旧式窗体示例_1.docx": "f0e9ed7006d7e2a954241fca66aead6e3a663dbb18af72d9d9abd44159d861c7",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-g5rlxcul\\samples\\旧式窗体示例_2.docx": "120e4f87ddd260fca9eee5441f8e4048e897eb3aaf12fb8c44e794077adc2533",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-g5rlxcul\\samples\\旧式窗体示例_3.docx": "a1a2ea81d13feb3f5b097d6e9a5464aebd257eb80454ffdbbba7f9561f802025",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-g5rlxcul\\samples\\内容控件示例_1.docx": "0e6ba5afc3e75f43bc7a1693a2e13b552a1e211bbb0c7e65ffabc0c68f02dfef",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-g5rlxcul\\samples\\内容控件示例_2.docx": "8cf2210f36655a34731b8dbb5f742f4f93c12f1447565ac57832b00898df281a",
+    "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-g5rlxcul\\samples\\内容控件示例_3.docx": "9f56c47c69e2b3931b25e4fefc803f3b7d95bc9ebf80f8bff8cbf49b3b1a1e8c"
+  },
+  "results": [
+    {
+      "kind": "legacy",
+      "to": "excel",
+      "input_count": 3,
+      "timings": {
+        "rust": {
+          "seconds": [
+            0.015949799999361858,
+            0.015068499997141771,
+            0.015257200007908978,
+            0.015355900002759881,
+            0.01529819999996107
+          ],
+          "median_seconds": 0.01529819999996107,
+          "mean_seconds": 0.015385920001426712
+        },
+        "aspose": {
+          "seconds": [
+            1.3358669000008376,
+            1.3574630000075558,
+            1.3225413000036497,
+            1.368567899990012,
+            1.4210868999944068
+          ],
+          "median_seconds": 1.3574630000075558,
+          "mean_seconds": 1.3611051999992925
+        }
+      },
+      "main_sheet_values_equal": true,
+      "rust_over_aspose_median": 0.011269699431863645,
+      "output_exact_signature_equal": false,
+      "rust_signature": {
+        "sheets": [
+          "output"
+        ],
+        "data": {
+          "output": [
+            [
+              "源文件名 (映射后)",
+              "UserName",
+              "Feedback"
+            ],
+            [
+              "旧式窗体示例_1.docx",
+              "用户_1",
+              "示例意见 1"
+            ],
+            [
+              "旧式窗体示例_2.docx",
+              "用户_2",
+              "示例意见 2"
+            ],
+            [
+              "旧式窗体示例_3.docx",
+              "用户_3",
+              "示例意见 3"
+            ]
+          ]
+        }
+      },
+      "aspose_signature": {
+        "sheets": [
+          "output",
+          "Evaluation Warning"
+        ],
+        "data": {
+          "output": [
+            [
+              "源文件名 (映射后)",
+              "UserName",
+              "Feedback"
+            ],
+            [
+              "旧式窗体示例_1.docx",
+              "用户_1",
+              "示例意见 1"
+            ],
+            [
+              "旧式窗体示例_2.docx",
+              "用户_2",
+              "示例意见 2"
+            ],
+            [
+              "旧式窗体示例_3.docx",
+              "用户_3",
+              "示例意见 3"
+            ]
+          ],
+          "Evaluation Warning": [
+            [
+              null
+            ],
+            [
+              null
+            ],
+            [
+              null
+            ],
+            [
+              null
+            ],
+            [
+              "Evaluation Only. Created with Aspose.Cells for .NET. Copyright 2003 - 2026 Aspose Pty Ltd."
+            ]
+          ]
+        }
+      },
+      "outputs": {
+        "rust": "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-g5rlxcul\\legacy-excel-rust-5.xlsx",
+        "aspose": "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-g5rlxcul\\legacy-excel-aspose-5.xlsx"
+      }
+    },
+    {
+      "kind": "legacy",
+      "to": "word",
+      "input_count": 3,
+      "timings": {
+        "rust": {
+          "seconds": [
+            0.022130799989099614,
+            0.021424300008220598,
+            0.021325900001102127,
+            0.021937599987722933,
+            0.020414600003277883
+          ],
+          "median_seconds": 0.021424300008220598,
+          "mean_seconds": 0.021446639997884633
+        },
+        "aspose": {
+          "seconds": [
+            1.6090686999959871,
+            1.6351394999946933,
+            1.7703004000068177,
+            1.6914247999957297,
+            1.756398800003808
+          ],
+          "median_seconds": 1.6914247999957297,
+          "mean_seconds": 1.6924664399994072
+        }
+      },
+      "main_sheet_values_equal": null,
+      "rust_over_aspose_median": 0.01266642182867053,
+      "output_exact_signature_equal": false,
+      "rust_signature": {
+        "text": [
+          "姓名： ",
+          "【旧式窗体示例_1.docx】: ",
+          "用户_1",
+          "; ",
+          "【旧式窗体示例_2.docx】: ",
+          "用户_2",
+          "; ",
+          "【旧式窗体示例_3.docx】: ",
+          "用户_3",
+          "; ",
+          "意见： ",
+          "【旧式窗体示例_1.docx】: ",
+          "示例意见 1",
+          "; ",
+          "【旧式窗体示例_2.docx】: ",
+          "示例意见 2",
+          "; ",
+          "【旧式窗体示例_3.docx】: ",
+          "示例意见 3",
+          "; "
+        ],
+        "tables": 0,
+        "images": 0
+      },
+      "aspose_signature": {
+        "text": [
+          "Created with an evaluation copy of Aspose.Words. To remove all limitations, you can use Free Temporary License ",
+          "https://products.aspose.com/words/temporary-license/",
+          "姓名",
+          "旧式窗体示例_1.docx",
+          "用户_1",
+          "意见",
+          "旧式窗体示例_1.docx",
+          "示例意见 1",
+          "旧式窗体示例_2.docx",
+          "用户_2",
+          "旧式窗体示例_2.docx",
+          "示例意见 2",
+          "旧式窗体示例_3.docx",
+          "用户_3",
+          "旧式窗体示例_3.docx",
+          "示例意见 3"
+        ],
+        "tables": 0,
+        "images": 1
+      },
+      "outputs": {
+        "rust": "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-g5rlxcul\\legacy-word-rust-5.docx",
+        "aspose": "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-g5rlxcul\\legacy-word-aspose-5.docx"
+      }
+    },
+    {
+      "kind": "content-control",
+      "to": "excel",
+      "input_count": 3,
+      "timings": {
+        "rust": {
+          "seconds": [
+            0.018593599990708753,
+            0.017246500006876886,
+            0.018404799993732013,
+            0.017580400002771057,
+            0.020150399999693036
+          ],
+          "median_seconds": 0.018404799993732013,
+          "mean_seconds": 0.01839513999875635
+        },
+        "aspose": {
+          "seconds": [
+            1.8749841999961063,
+            1.5429086000076495,
+            2.0272027000028174,
+            1.7416569999913918,
+            1.5998055000090972
+          ],
+          "median_seconds": 1.7416569999913918,
+          "mean_seconds": 1.7573116000014124
+        }
+      },
+      "main_sheet_values_equal": true,
+      "rust_over_aspose_median": 0.010567407930392137,
+      "output_exact_signature_equal": false,
+      "rust_signature": {
+        "sheets": [
+          "output_cc"
+        ],
+        "data": {
+          "output_cc": [
+            [
+              "源文件名",
+              "UserName",
+              "Department"
+            ],
+            [
+              "内容控件示例_1.docx",
+              "测试员工_1",
+              "技术部"
+            ],
+            [
+              "内容控件示例_2.docx",
+              "测试员工_2",
+              "技术部"
+            ],
+            [
+              "内容控件示例_3.docx",
+              "测试员工_3",
+              "技术部"
+            ]
+          ]
+        }
+      },
+      "aspose_signature": {
+        "sheets": [
+          "output_cc",
+          "Evaluation Warning"
+        ],
+        "data": {
+          "output_cc": [
+            [
+              "源文件名",
+              "UserName",
+              "Department"
+            ],
+            [
+              "内容控件示例_1.docx",
+              "测试员工_1",
+              "技术部"
+            ],
+            [
+              "内容控件示例_2.docx",
+              "测试员工_2",
+              "技术部"
+            ],
+            [
+              "内容控件示例_3.docx",
+              "测试员工_3",
+              "技术部"
+            ]
+          ],
+          "Evaluation Warning": [
+            [
+              null
+            ],
+            [
+              null
+            ],
+            [
+              null
+            ],
+            [
+              null
+            ],
+            [
+              "Evaluation Only. Created with Aspose.Cells for .NET. Copyright 2003 - 2026 Aspose Pty Ltd."
+            ]
+          ]
+        }
+      },
+      "outputs": {
+        "rust": "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-g5rlxcul\\content-control-excel-rust-5.xlsx",
+        "aspose": "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-g5rlxcul\\content-control-excel-aspose-5.xlsx"
+      }
+    },
+    {
+      "kind": "content-control",
+      "to": "word",
+      "input_count": 3,
+      "timings": {
+        "rust": {
+          "seconds": [
+            0.022900700001628138,
+            0.02286340000864584,
+            0.023268800010555424,
+            0.024923500008299015,
+            0.022761200001696125
+          ],
+          "median_seconds": 0.022900700001628138,
+          "mean_seconds": 0.02334352000616491
+        },
+        "aspose": {
+          "seconds": [
+            1.701973999995971,
+            1.6941867999994429,
+            1.781212300003972,
+            2.7088309000100708,
+            3.226099499996053
+          ],
+          "median_seconds": 1.781212300003972,
+          "mean_seconds": 2.222460700001102
+        }
+      },
+      "main_sheet_values_equal": null,
+      "rust_over_aspose_median": 0.012856805447378212,
+      "output_exact_signature_equal": false,
+      "rust_signature": {
+        "text": [
+          "姓名：",
+          "内容控件示例_1.docx",
+          "测试员工_1",
+          "部门：",
+          "内容控件示例_1.docx",
+          "技术部",
+          "内容控件示例_2.docx",
+          "测试员工_2",
+          "内容控件示例_2.docx",
+          "技术部",
+          "内容控件示例_3.docx",
+          "测试员工_3",
+          "内容控件示例_3.docx",
+          "技术部"
+        ],
+        "tables": 0,
+        "images": 0
+      },
+      "aspose_signature": {
+        "text": [
+          "Created with an evaluation copy of Aspose.Words. To remove all limitations, you can use Free Temporary License ",
+          "https://products.aspose.com/words/temporary-license/",
+          "UserName",
+          "内容控件示例_1.docx",
+          "测试员工_1",
+          "Department",
+          "内容控件示例_1.docx",
+          "技术部",
+          "内容控件示例_2.docx",
+          "测试员工_2",
+          "内容控件示例_2.docx",
+          "技术部",
+          "内容控件示例_3.docx",
+          "测试员工_3",
+          "内容控件示例_3.docx",
+          "技术部"
+        ],
+        "tables": 0,
+        "images": 1
+      },
+      "outputs": {
+        "rust": "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-g5rlxcul\\content-control-word-rust-5.docx",
+        "aspose": "C:\\Users\\AZI\\Desktop\\VibeCode\\9.vbaword\\rust-cli\\target\\aspose-comparison-g5rlxcul\\content-control-word-aspose-5.docx"
+      }
+    }
+  ],
+  "inputs_unchanged": true,
+  "originals_unchanged": true
+}

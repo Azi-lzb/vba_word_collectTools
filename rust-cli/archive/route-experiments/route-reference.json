@@ -1,0 +1,150 @@
+{
+  "description": "Windows, three protected synthetic Word documents, one warmup plus three new-process runs; end-to-end startup, parse and save. Aspose trial Word is text-only and not equivalent fidelity.",
+  "runs": 3,
+  "results": [
+    {
+      "kind": "legacy",
+      "to": "excel",
+      "timings": {
+        "com": {
+          "seconds": [
+            14.103085499998997,
+            10.519661800004542,
+            15.108441800010041
+          ],
+          "median_seconds": 14.103085499998997
+        },
+        "python": {
+          "seconds": [
+            1.32130879999022,
+            1.292514000000665,
+            1.249940300011076
+          ],
+          "median_seconds": 1.292514000000665
+        },
+        "rust": {
+          "seconds": [
+            0.020556200004648417,
+            0.016956599996774457,
+            0.019274300007964484
+          ],
+          "median_seconds": 0.019274300007964484
+        },
+        "aspose": {
+          "seconds": [
+            1.4212549999938346,
+            1.4857464999950025,
+            1.5172272000054363
+          ],
+          "median_seconds": 1.4857464999950025
+        }
+      },
+      "input_count": 3
+    },
+    {
+      "kind": "legacy",
+      "to": "word",
+      "timings": {
+        "com": {
+          "seconds": [
+            8.675174000003608,
+            9.820704799989471,
+            10.472334099991713
+          ],
+          "median_seconds": 9.820704799989471
+        },
+        "rust": {
+          "seconds": [
+            0.03240899999218527,
+            0.04045699999551289,
+            0.03340770000068005
+          ],
+          "median_seconds": 0.03340770000068005
+        },
+        "aspose": {
+          "seconds": [
+            1.9638383999990765,
+            1.919808099992224,
+            1.8749810000008438
+          ],
+          "median_seconds": 1.919808099992224
+        }
+      },
+      "input_count": 3
+    },
+    {
+      "kind": "content-control",
+      "to": "excel",
+      "timings": {
+        "com": {
+          "seconds": [
+            13.727568699992844,
+            12.469004899990978,
+            12.383099399987259
+          ],
+          "median_seconds": 12.469004899990978
+        },
+        "python": {
+          "seconds": [
+            2.0691485999996075,
+            1.9493789999978617,
+            1.8828925999987405
+          ],
+          "median_seconds": 1.9493789999978617
+        },
+        "rust": {
+          "seconds": [
+            0.019475100009003654,
+            0.021176399997784756,
+            0.020334600005298853
+          ],
+          "median_seconds": 0.020334600005298853
+        },
+        "aspose": {
+          "seconds": [
+            1.5574324999906821,
+            1.431422299996484,
+            1.4209548999933759
+          ],
+          "median_seconds": 1.431422299996484
+        }
+      },
+      "input_count": 3
+    },
+    {
+      "kind": "content-control",
+      "to": "word",
+      "timings": {
+        "com": {
+          "seconds": [
+            13.159777199995006,
+            13.46992119999777,
+            11.460018800004036
+          ],
+          "median_seconds": 13.159777199995006
+        },
+        "rust": {
+          "seconds": [
+            0.029219000003649853,
+            0.028521800006274134,
+            0.028976200002944097
+          ],
+          "median_seconds": 0.028976200002944097
+        },
+        "aspose": {
+          "seconds": [
+            1.8460612000053516,
+            1.8434812000050442,
+            1.9330634000070859
+          ],
+          "median_seconds": 1.8460612000053516
+        }
+      },
+      "input_count": 3
+    }
+  ],
+  "originals_unchanged": true,
+  "inputs_unchanged": true,
+  "aspose_license_words": false,
+  "aspose_license_cells": false
+}
