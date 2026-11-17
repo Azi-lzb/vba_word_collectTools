@@ -1,5 +1,7 @@
 Word汇总工具 v0.1.0
 
+GitHub 附件采用 `WordSummaryTool` 文件名以兼容平台的中文文件名限制；中文名称显示在附件标签中，压缩包内程序仍名为“Word汇总工具”。
+
 - Windows x64：下载 ZIP 解压后运行 `Word汇总工具.exe`，或单独下载 EXE 和 `config.xlsx` 放在同一目录。
 - ZIP 仅包含 EXE 和配置工作簿。发布配置的文档保护密码已清空；请在“常用操作 → 打开配置”中填写自己的设置并保存。
 - Linux x86_64：可下载 tar.gz 便携包，或在 Debian/Ubuntu 安装 DEB。要求 glibc 2.28 及以上，不适用于 ARM64 或 Alpine/musl。

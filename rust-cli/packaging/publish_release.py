@@ -61,12 +61,16 @@ def main():
     release=api(base+'/releases','POST',{'tag_name':args.tag,'target_commitish':commit,'name':'Word汇总工具 '+args.tag,'body':args.notes.read_text(encoding='utf8'),'draft':True,'prerelease':False})
     uploaded=[]
     for path in assets:
-        content=path.read_bytes();digest='sha256:'+hashlib.sha256(content).hexdigest()
-        url=release['upload_url'].split('{')[0]+'?'+urllib.parse.urlencode({'name':path.name})
+        remote_name=path.name.replace('Word汇总工具','WordSummaryTool')
+        content=path.read_bytes()
+        if path==manifest:content=content.decode('utf8').replace('Word汇总工具','WordSummaryTool').encode('utf8')
+        digest='sha256:'+hashlib.sha256(content).hexdigest()
+        url=release['upload_url'].split('{')[0]+'?'+urllib.parse.urlencode({'name':remote_name,'label':path.name})
         result=api(url,'POST',raw=content,content_type='application/octet-stream')
         assert result['size']==len(content)
+        assert result['name']==remote_name
         if result.get('digest'):assert result['digest']==digest
-        uploaded.append({'name':path.name,'size':len(content),'sha256':digest,'url':result['browser_download_url']})
+        uploaded.append({'name':result['name'],'local_name':path.name,'size':len(content),'sha256':digest,'url':result['browser_download_url']})
         print(json.dumps({'uploaded':path.name,'bytes':len(content)}),flush=True)
     # Publication happens only after every upload and checksum check succeeds.
     published=api(base+'/releases/'+str(release['id']),'PATCH',{'draft':False,'make_latest':'true'})

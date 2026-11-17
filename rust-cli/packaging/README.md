@@ -69,3 +69,5 @@ python packaging/publish_release.py --directory dist/github-release-v0.1.0 --tag
 ```
 
 The release directory must exist before generating the workbook. The sanitizer clears config B2, other password-labeled configuration values, and legacy mapping E1 while rebuilding the workbook without old shared strings. It leaves the source configuration untouched. The publisher checks configuration passwords and hashes, creates a draft, uploads all artifacts and checks upload digests before publishing. Credentials come from Git's configured credential helper and are not printed or stored.
+
+GitHub sanitizes Chinese asset filenames. The uploader therefore uses `WordSummaryTool` for remote filenames and the original Chinese names for display labels. Archive contents remain unchanged. The uploaded checksum file uses the remote filenames so users can validate downloads directly.
