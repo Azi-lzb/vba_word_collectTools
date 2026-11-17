@@ -39,6 +39,10 @@ enum Command {
     InitWorkbookConfig {
         #[arg(long, default_value = "config.xlsx")]
         output: PathBuf,
+        #[arg(long)]
+        source: Option<PathBuf>,
+        #[arg(long)]
+        clear_password: bool,
     },
     /// Generate example Word forms without Office.
     GenerateExamples {
@@ -98,7 +102,11 @@ fn main() -> Result<()> {
         return menu::run();
     }
     match Cli::parse().command {
-        Command::InitWorkbookConfig { output } => config::create_workbook_config(&output),
+        Command::InitWorkbookConfig {
+            output,
+            source,
+            clear_password,
+        } => config::create_workbook_config_from(&output, source.as_deref(), clear_password),
         Command::GenerateExamples { kind, output } => {
             samples::generate(kind, &output).map(|files| {
                 for path in files {

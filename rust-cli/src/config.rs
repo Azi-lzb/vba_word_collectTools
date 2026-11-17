@@ -164,9 +164,19 @@ pub(crate) fn ensure_config() -> Result<PathBuf> {
 }
 
 pub fn create_workbook_config(path: &Path) -> Result<()> {
+    create_workbook_config_from(path, None, false)
+}
+
+pub fn create_workbook_config_from(
+    path: &Path,
+    source_path: Option<&Path>,
+    clear_password: bool,
+) -> Result<()> {
     use rust_xlsxwriter::{Format, Workbook};
     anyhow::ensure!(!path.exists(), "配置已存在，不覆盖：{}", path.display());
-    let mut source = find_workbook()
+    let mut source = source_path
+        .map(Path::to_path_buf)
+        .or_else(find_workbook)
         .map(|p| open_workbook_auto(p))
         .transpose()
         .context("无法读取原 VBA 配置")?;
@@ -182,6 +192,20 @@ pub fn create_workbook_config(path: &Path) -> Result<()> {
             if let Some((row_start, col_start)) = range.start() {
                 for (r, row) in range.rows().enumerate() {
                     for (c, cell) in row.iter().enumerate() {
+                        let abs_row = row_start + r as u32;
+                        let abs_col = col_start as usize + c;
+                        if clear_password
+                            && ((name == "config"
+                                && abs_col == 1
+                                && (abs_row == 1
+                                    || row.first().is_some_and(|label| {
+                                        let label = label.to_string().to_lowercase();
+                                        label.contains("密码") || label.contains("password")
+                                    })))
+                                || (name == "mapping" && abs_row == 0 && abs_col == 4))
+                        {
+                            continue;
+                        }
                         let value = cell.to_string();
                         if !value.is_empty() {
                             sheet.write_string(

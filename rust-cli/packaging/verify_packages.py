@@ -44,9 +44,10 @@ def signature(path):
 
 def main():
     parser=argparse.ArgumentParser()
+    parser.add_argument('--directory',type=Path,default=ROOT/'dist')
     parser.add_argument('--current-baseline',action='store_true',help='Check the current originals for changes without replacing the historical manifest')
     args=parser.parse_args()
-    dist=ROOT/'dist';output=ROOT/'target'/'package-check';output.mkdir(exist_ok=True)
+    dist=args.directory.resolve();output=ROOT/'target'/'package-check';output.mkdir(exist_ok=True)
     originals=snapshot()
     historical=json.loads((ROOT/'verification/evidence/original-sha256.json').read_text())
     if not args.current_baseline:assert originals==historical,'Original files differ from the historical manifest; use --current-baseline to preserve and verify the current files'
@@ -72,7 +73,8 @@ def main():
                          '--output',ref/f'{kind}-{to}.{extension}'],env=dict(os.environ,PATH=''))
         for version in ('20.04','22.04'):
             directory=output/('ubuntu-'+version);directory.mkdir(exist_ok=True)
-            command=['docker','run','--rm','-v',str(ROOT.parent)+':/project:ro','-v',str(directory)+':/out',
+            mounted_dist='/project/'+dist.relative_to(ROOT.parent).as_posix()
+            command=['docker','run','--rm','-e','VBAWORD_DIST='+mounted_dist,'-v',str(ROOT.parent)+':/project:ro','-v',str(directory)+':/out',
                      'ubuntu:'+version,'sh','/project/rust-cli/packaging/verify-linux.sh']
             log=run(command)
             (directory/'verification.log').write_text(log,encoding='utf-8')

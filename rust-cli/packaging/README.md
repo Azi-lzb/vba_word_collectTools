@@ -58,3 +58,14 @@ at `/out`, then run `sh /project/rust-cli/packaging/verify-linux.sh`. Packaging
 validation results are retained in `dist/package-verification.json`.
 
 Release filenames and portable executables use Word汇总工具. The Debian package identifier remains `vbaword-cli` for package-manager compatibility.
+
+For a public release, use a separate output directory and generate a fresh password-free workbook first:
+
+```powershell
+target/release/vbaword-cli.exe init-workbook-config --source dist/config.xlsx --clear-password --output dist/github-release-v0.1.0/config.xlsx
+python packaging/package.py --windows-binary target/release/vbaword-cli.exe --linux-binary target/linux-x86_64/release/vbaword-cli --output dist/github-release-v0.1.0
+python packaging/verify_packages.py --current-baseline --directory dist/github-release-v0.1.0
+python packaging/publish_release.py --directory dist/github-release-v0.1.0 --tag v0.1.0 --notes packaging/RELEASE-v0.1.0.md
+```
+
+The release directory must exist before generating the workbook. The sanitizer clears config B2, other password-labeled configuration values, and legacy mapping E1 while rebuilding the workbook without old shared strings. It leaves the source configuration untouched. The publisher checks configuration passwords and hashes, creates a draft, uploads all artifacts and checks upload digests before publishing. Credentials come from Git's configured credential helper and are not printed or stored.

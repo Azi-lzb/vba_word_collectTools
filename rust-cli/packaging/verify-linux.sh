@@ -3,7 +3,8 @@
 # and an empty writable /out. Requires verification/fixtures from run_all.py.
 set -eu
 project=/project/rust-cli
-tar -xzf "$project/dist/Word汇总工具-0.1.0-linux-x86_64.tar.gz" -C /out
+dist=${VBAWORD_DIST:-$project/dist}
+tar -xzf "$dist/Word汇总工具-0.1.0-linux-x86_64.tar.gz" -C /out
 portable=/out/Word汇总工具-0.1.0-linux-x86_64
 "$portable/Word汇总工具" --version
 run_four() {
@@ -21,8 +22,8 @@ run_four() {
     done
 }
 run_four "$portable/Word汇总工具" /out/tar
-dpkg-deb --info "$project/dist/Word汇总工具_0.1.0_amd64.deb"
-dpkg -i "$project/dist/Word汇总工具_0.1.0_amd64.deb"
+dpkg-deb --info "$dist/Word汇总工具_0.1.0_amd64.deb"
+dpkg -i "$dist/Word汇总工具_0.1.0_amd64.deb"
 run_four /usr/bin/Word汇总工具 /out/deb
 /usr/bin/env PATH=/missing /usr/bin/Word汇总工具 extract --backend auto --kind content-control --to word \
     --config /usr/share/doc/vbaword-cli/vbaword.example.toml \
