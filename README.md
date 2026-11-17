@@ -1,6 +1,77 @@
-# vbaWord - 办公自动化：Word 问卷批量汇总工具
+# Word汇总工具
 
-`vbaWord` 是一个基于 Excel/Word VBA 开发的办公自动化套件，专门用于处理受保护（限制编辑：填写窗体）的 Word 问卷文档。它可以将分散的问卷数据一键提取并汇总到 Excel 表格或生成一份精简的 Word 报告。
+批量提取 Word 问卷中的**旧式窗体域**和**内容控件**，汇总到 Excel 或 Word。提供可直接运行的 Rust 程序，也保留原有 Excel/Word VBA 实现。
+
+## 下载
+
+**Windows 用户推荐：[下载 Windows ZIP（v0.1.0，x64）](https://github.com/Azi-lzb/vba_word_collectTools/releases/download/v0.1.0/WordSummaryTool-0.1.0-windows-x86_64.zip)**，解压后即可使用。
+
+- [最新版本下载入口](https://github.com/Azi-lzb/vba_word_collectTools/releases/latest)
+- [Windows 独立 EXE](https://github.com/Azi-lzb/vba_word_collectTools/releases/download/v0.1.0/WordSummaryTool.exe) · [空密码配置 config.xlsx](https://github.com/Azi-lzb/vba_word_collectTools/releases/download/v0.1.0/config.xlsx)
+- [Linux tar.gz 便携包](https://github.com/Azi-lzb/vba_word_collectTools/releases/download/v0.1.0/WordSummaryTool-0.1.0-linux-x86_64.tar.gz)
+- [Debian / Ubuntu DEB 安装包](https://github.com/Azi-lzb/vba_word_collectTools/releases/download/v0.1.0/WordSummaryTool_0.1.0_amd64.deb)
+- [SHA256 校验文件](https://github.com/Azi-lzb/vba_word_collectTools/releases/download/v0.1.0/SHA256SUMS.txt)
+
+GitHub 附件名使用 `WordSummaryTool`；ZIP 内的程序名为 `Word汇总工具.exe`。Windows ZIP 只包含程序和 `config.xlsx` 两个文件。Linux 包适用于 **x86_64、glibc 2.28 及以上**，不适用于 ARM64 或 Alpine/musl。
+
+## Windows 快速使用
+
+1. 下载上面的 Windows ZIP，将两个文件解压到同一文件夹。
+2. 双击 `Word汇总工具.exe`，进入终端交互菜单。
+3. 选择 **1 文件提取**，再按问卷类型选择“旧式窗体”或“内容控件”，以及输出到 Excel 或 Word。
+4. 选择多个文件、文件夹当前层或递归子目录；也可以手动输入路径。选完后程序自动开始提取。
+5. 结果保存在程序旁边的 `output` 文件夹。同名文件会自动编号，不覆盖已有结果。
+
+主菜单分为三组：
+
+- **1 文件提取**：旧式窗体 → Excel / Word、内容控件 → Excel / Word。
+- **2 示例文档生成**：生成三份旧式窗体示例、三份内容控件示例，或两种一起生成。示例默认放在 VBA 工作簿所在目录；没有工作簿时放在程序目录。
+- **3 常用操作**：打开输出目录、打开最新输出文件、打开配置。子菜单输入 `0` 可返回。
+
+### 配置密码与文件名映射
+
+进入 **3 常用操作 → 3 打开配置**，编辑并保存 `config.xlsx`，下次提取时生效：
+
+- `config!B2`：Word 文档的“限制编辑”密码，没有密码时留空。**Release 中的密码已清空，请填写自己的密码。**
+- `config!B3`：内容控件优先按 `TAG` 或 `TITLE` 识别，默认 `TAG`。
+- `mapping!A:B`：从第 2 行起填写“文件名关键词”和“映射名称”，用于旧式窗体汇总的来源名称。
+
+独立配置可直接使用，无需准备原 VBA 工作簿。
+
+### 运行环境与格式
+
+日常处理 `.docx` / `.docm`、输出 `.xlsx` / `.docx` 时，程序优先使用**纯 Rust**，不需要 Python 或 Office。Word 汇总支持已覆盖的文字格式、图片、超链接和表格；复杂文档建议检查汇总结果。
+
+自动路由无需手动选择：Excel 写出失败时依次尝试 openpyxl、COM；Word 失败时尝试 COM。Rust 读取失败时直接回退 COM，因为 openpyxl 共用 Rust 读取器。旧二进制 `.doc` 和旧式输出格式需要 Windows COM。
+
+可选回退环境：openpyxl 需要 Python 和 `openpyxl`；COM 需要 Python、`pywin32` 和 Word，输出 Excel 时还需要 Excel。**旧 `.doc` 在未安装 Office 的环境中需先转换为 `.docx`。**
+
+## Linux 快速使用
+
+解压便携包后，在终端运行：
+
+```bash
+tar -xzf WordSummaryTool-0.1.0-linux-x86_64.tar.gz
+cd Word汇总工具-0.1.0-linux-x86_64
+./Word汇总工具
+```
+
+Debian / Ubuntu 也可安装 DEB：
+
+```bash
+sudo apt install ./WordSummaryTool_0.1.0_amd64.deb
+Word汇总工具
+```
+
+Linux 交互菜单使用手动输入路径。便携版结果写入程序旁的 `output`；安装到 `/usr/bin` 的版本写入当前目录的 `output`。COM 仅适用于 Windows。
+
+更多命令行参数、构建和验证方法见 [Rust 工具说明](rust-cli/README.md) 与 [打包说明](rust-cli/packaging/README.md)。
+
+---
+
+## 原 VBA 版本文档
+
+以下说明适用于 Excel/Word VBA 宏版本。VBA 套件主要用于受保护（限制编辑：填写窗体）的 Word 问卷，可汇总到 Excel 表格或 Word 报告。
 
 ## 🌟 核心功能
 
@@ -11,7 +82,7 @@
 ### 2. 新式窗体/内容控件汇总 (Content Controls)
 - **`extractCCtoExcel.bas`**: 按 `Tag` 或 `Title` 将内容控件数据汇总至 Excel。
 - **`extractCCtoWord.bas`**: 汇总内容控件至 Word（文本模式）。
-- **`extractCCtoWordWithTables.bas`**: **(推荐)** 汇总内容控件至 Word（含表格模式）。支持完整复制控件内的表格、行列及格式。
+- **`extractCCtoWordWithTables.bas`**: **(推荐)** 汇总内容控件至 Word（含表格模式）。按 `Tag/Title` 汇总，复制源文档中控件前的题目文本及其格式，并保留控件内表格、行列和格式；若找不到题目文本，则以 `Tag/Title` 作为标题。
 
 ### 3. 配置与工具
 - **`modConfig.bas`**: **(新)** 提供 `config` 工作表初始化及配置读取功能。
